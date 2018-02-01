@@ -1,0 +1,73 @@
+{
+  "users" : {
+    "TpyjPSNBqla5RYaeowU9UrWJab52" : {
+      "_search_index" : {
+        "full_name" : "demi connelley",
+        "reversed_full_name" : "ConnelleyDemi"
+      },
+      "full_name" : "Demi Connelley",
+      "notificationTokens" : {
+        "fFL-zFdgtkc:APA91bFeJdFnXz39juC8VP3kjHo-_JHS7u6tTGhkQ1kVNk4f9hOFruWR6OWYj640FzM6MxL6UkDEKDAiHOkfcH0I-W_saX7fIU-MKRXRAunRVwLUwogRitmGT9B4VIPFLG6-F4hOrPXR" : true
+      },
+      "profile_picture" : "https://graph.facebook.com/10209498296847764/picture?type=large",
+      "chats" : {}
+    },
+    "aPR3TQPsoFZ5j1Qn5qj18ztye1c2" : {
+      "_search_index" : {
+        "full_name" : "nicholas schlatter",
+        "reversed_full_name" : "SchlatterNicholas"
+      },
+      "full_name" : "Nicholas Schlatter",
+      "notificationTokens" : {
+        "e8D-KhU5hOs:APA91bEyCj12_Rr4bai1btleJJ8fe3Jhc9fAuRbTYYqsSFWVqQDjxf6Yamp4lnlRAmu10cdVv7T1eeu5CQwM4w8BO2awtR6nh47k7cSjlhjm8hFSYaigxpnYg9x8q58v5JDidA1rvo0s" : true
+      },
+      "profile_picture" : "https://graph.facebook.com/10155423011660028/picture?type=large",
+        "chats" :  {}
+    },
+    "lvZCOk8pGwUV5V3evZPKYH3h5Py1" : {
+      "_search_index" : {
+        "full_name" : "anthony magner",
+        "reversed_full_name" : "MagnerAnthony"
+      },
+      "full_name" : "Anthony Magner",
+      "notificationTokens" : {
+        "e5WVV1DDkHA:APA91bHNzOLLLhl5L59QX2uAE9gmhgAaRHkZo4PjrsvETlStVRbCSB837oo7HD2H41W-HISxTdOd-ORwMU46JAL6y5Nqi2ClBIS9FWLhubZ5do58EAgWDE2NY5j0tEXndFAMa2qXW-oz" : true
+      },
+      "profile_picture" : "https://graph.facebook.com/994922535480/picture?type=large"
+    },
+    "uGDt9TikaochKTH16d38m3MNcNg1" : {
+      "_search_index" : {
+        "full_name" : "stephanie gray jardim",
+        "reversed_full_name" : "JardimGrayStephanie"
+      },
+      "full_name" : "Stephanie Gray Jardim",
+      "notificationTokens" : {
+        "dt0Dj7uprU0:APA91bGCPzoxHMzLy1X6dPirzt3kcTlC2j71p6UAIFMg48F-NYoxQyVHEWBBP7lhz3GDOltDpNDt7CLjBOCd1c9XLbQ8WmXNqJga1JdfgCJN5WQC2lfdTDSGkJCl8GrkqR1diVdGbGl4" : true
+      },
+      "profile_picture" : "https://graph.facebook.com/10100611584118051/picture?type=large"
+    }
+  },
+  "users_locations" : {
+    "TpyjPSNBqla5RYaeowU9UrWJab52" : {
+        ".priority" : "9xj76gb4mv",
+        "g" : "9xj76gb4mv",
+        "l" : [ 39.9673053017, -104.9960894511 ]
+    },
+      "aPR3TQPsoFZ5j1Qn5qj18ztye1c2" : {
+          ".priority" : "9xj708qh63",
+          "g" : "9xj708qh63",
+          "l" : [ 39.9044547927, -105.0868738308 ]
+    },
+      "lvZCOk8pGwUV5V3evZPKYH3h5Py1" : {
+          ".priority" : "9xj64sd90t",
+          "g" : "9xj64sd90t",
+          "l" : [ 39.7514837917, -105.0038595629 ]
+    },
+      "uGDt9TikaochKTH16d38m3MNcNg1" : {
+          ".priority" : "9xj76gb4mv",
+          "g" : "9xj76gb4mv",
+          "l" : [ 39.9673053017, -104.9960894511 ]
+    }
+      
+  }
+}

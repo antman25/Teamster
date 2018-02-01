@@ -7,12 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AC0517B182C30A59B8398FC /* Pods_TeamsterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE388CEB5B96908DD032AC83 /* Pods_TeamsterTests.framework */; };
+		9215B0D22019783A00C4D81C /* TeamsterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9215B0D12019783A00C4D81C /* TeamsterUser.swift */; };
+		9215B0D720198D1900C4D81C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9215B0D620198D1900C4D81C /* MapKit.framework */; };
+		9215B0D9201998FF00C4D81C /* CLPlacemark+CompactAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9215B0D8201998FF00C4D81C /* CLPlacemark+CompactAddress.swift */; };
+		9215B0DD201AAC2E00C4D81C /* TeamsterFeedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9215B0DB201AAC2D00C4D81C /* TeamsterFeedCollectionViewCell.xib */; };
+		9215B0DE201AAC2E00C4D81C /* TeamsterFeedCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9215B0DC201AAC2E00C4D81C /* TeamsterFeedCardCollectionViewCell.swift */; };
+		9215B0E0201AAD0B00C4D81C /* TeamsterFeedPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9215B0DF201AAD0B00C4D81C /* TeamsterFeedPost.swift */; };
+		9215B0E2201AAFB000C4D81C /* TeamsterFeedComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9215B0E1201AAFB000C4D81C /* TeamsterFeedComment.swift */; };
+		921F70E7201811D70017D5DF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F70E6201811D70017D5DF /* ProfileViewController.swift */; };
+		921F70E92018193C0017D5DF /* TeamsterInfoPage0.xib in Resources */ = {isa = PBXBuildFile; fileRef = 921F70E82018193C0017D5DF /* TeamsterInfoPage0.xib */; };
+		921F70EB2018199A0017D5DF /* TeamsterInfoPage1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 921F70EA2018199A0017D5DF /* TeamsterInfoPage1.xib */; };
+		921F70EF20181CB90017D5DF /* TeamsterInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F70EE20181CB90017D5DF /* TeamsterInfoViewController.swift */; };
+		921F70F1201849140017D5DF /* TeamsterInfoPage2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 921F70F0201849140017D5DF /* TeamsterInfoPage2.xib */; };
+		922EB441201D2DD80060E39C /* teamster_db_test.json in Resources */ = {isa = PBXBuildFile; fileRef = 922EB440201D2DD80060E39C /* teamster_db_test.json */; };
+		92391CBE2014436A0082C22B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92391CBD2014436A0082C22B /* MainViewController.swift */; };
+		92391CC720144FF50082C22B /* SliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92391CC020144FF40082C22B /* SliderCell.xib */; };
+		92391CC820144FF50082C22B /* ValuePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92391CC120144FF40082C22B /* ValuePickerCell.xib */; };
+		92391CC920144FF50082C22B /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92391CC220144FF40082C22B /* CustomCell.swift */; };
+		92391CCA20144FF50082C22B /* DatePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92391CC320144FF40082C22B /* DatePickerCell.xib */; };
+		92391CCB20144FF50082C22B /* SwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92391CC420144FF50082C22B /* SwitchCell.xib */; };
+		92391CCC20144FF50082C22B /* TextfieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92391CC520144FF50082C22B /* TextfieldCell.xib */; };
+		92391CCD20144FF50082C22B /* NormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92391CC620144FF50082C22B /* NormalCell.xib */; };
+		92391CD520145F3E0082C22B /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92391CD420145F3E0082C22B /* SettingsTableViewController.swift */; };
+		924F6AC42015033500B1C0B8 /* KolodaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F6AC32015033500B1C0B8 /* KolodaViewController.swift */; };
+		924F6AFB20158C9700B1C0B8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F6AFA20158C9700B1C0B8 /* CardView.swift */; };
+		924F6AFD20158CAB00B1C0B8 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 924F6AFC20158CAB00B1C0B8 /* CardView.xib */; };
+		924F6AFF20159B4100B1C0B8 /* SearchSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F6AFE20159B4100B1C0B8 /* SearchSettings.swift */; };
+		924F6B352017F71700B1C0B8 /* TeamsterAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 924F6B342017F71700B1C0B8 /* TeamsterAuthViewController.xib */; };
+		924F6B372017F78600B1C0B8 /* TeamsterAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F6B362017F78600B1C0B8 /* TeamsterAuthViewController.swift */; };
+		924F6B392017F87D00B1C0B8 /* TeamsterSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F6B382017F87D00B1C0B8 /* TeamsterSignInViewController.swift */; };
+		926140561FFC80FF00506E67 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 926140551FFC80FE00506E67 /* GoogleService-Info.plist */; };
+		928AC6212013C10F00D22125 /* SegueFromLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC61F2013C10F00D22125 /* SegueFromLeft.swift */; };
+		928AC6222013C10F00D22125 /* SegueFromRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC6202013C10F00D22125 /* SegueFromRight.swift */; };
+		928AC62E2013C15500D22125 /* UISliderX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC6242013C15400D22125 /* UISliderX.swift */; };
+		928AC62F2013C15500D22125 /* UIViewAnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC6252013C15400D22125 /* UIViewAnchorPoint.swift */; };
+		928AC6302013C15500D22125 /* UIVisualEffectViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC6262013C15400D22125 /* UIVisualEffectViewX.swift */; };
+		928AC6312013C15500D22125 /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC6272013C15400D22125 /* UILabelX.swift */; };
+		928AC6322013C15500D22125 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC6282013C15400D22125 /* UIViewX.swift */; };
+		928AC6332013C15500D22125 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC6292013C15500D22125 /* UIButtonX.swift */; };
+		928AC6342013C15500D22125 /* UIViewControllerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC62A2013C15500D22125 /* UIViewControllerX.swift */; };
+		928AC6352013C15500D22125 /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC62B2013C15500D22125 /* UITextFieldX.swift */; };
+		928AC6362013C15500D22125 /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC62C2013C15500D22125 /* UIImageViewX.swift */; };
+		928AC6372013C15500D22125 /* UIViewXRadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AC62D2013C15500D22125 /* UIViewXRadialGradient.swift */; };
+		92966A81200B0CD7002DFEA6 /* htmlExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92966A80200B0CD7002DFEA6 /* htmlExtensions.swift */; };
+		92C1FA4D201E42BF00CE55C9 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C1FA4C201E42BF00CE55C9 /* ChatViewController.swift */; };
+		92C1FA53201E453F00CE55C9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C1FA52201E453F00CE55C9 /* Constants.swift */; };
+		92C1FA55201E48D700CE55C9 /* TestUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C1FA54201E48D700CE55C9 /* TestUserViewController.swift */; };
+		92C3113E201AE5CF00D7EF23 /* ARDESTINE.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92C3113D201AE50100D7EF23 /* ARDESTINE.ttf */; };
+		92C3113F201BD2B700D7EF23 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C31142201BD2B700D7EF23 /* FBSDKCoreKit.framework */; };
+		92C31140201BD2B700D7EF23 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C31143201BD2B700D7EF23 /* FBSDKLoginKit.framework */; };
+		92C31141201BD2B700D7EF23 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C31144201BD2B700D7EF23 /* FBSDKShareKit.framework */; };
+		92C31145201BD2EB00D7EF23 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C31147201BD2EB00D7EF23 /* Kingfisher.framework */; };
+		92C31146201BD2EB00D7EF23 /* Koloda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C31148201BD2EB00D7EF23 /* Koloda.framework */; };
+		92C31149201BD33D00D7EF23 /* MaterialComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C3114B201BD33D00D7EF23 /* MaterialComponents.framework */; };
+		92C3114A201BD33D00D7EF23 /* MHPrettyDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C3114C201BD33D00D7EF23 /* MHPrettyDate.framework */; };
+		92C3114D201BD39300D7EF23 /* SideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C3114E201BD39300D7EF23 /* SideMenu.framework */; };
+		92C3114F201BD41400D7EF23 /* Cache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C31150201BD41400D7EF23 /* Cache.framework */; };
+		92C31151201BD48200D7EF23 /* GTMOAuth2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C31154201BD48200D7EF23 /* GTMOAuth2.framework */; };
+		92C31152201BD48200D7EF23 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C31155201BD48200D7EF23 /* GTMSessionFetcher.framework */; };
+		92C31153201BD48200D7EF23 /* Imaginary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C31156201BD48200D7EF23 /* Imaginary.framework */; };
+		92C3115B201BD58100D7EF23 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C3115C201BD58100D7EF23 /* GoogleToolboxForMac.framework */; };
+		92C3115D201BD58D00D7EF23 /* Hue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C3115E201BD58D00D7EF23 /* Hue.framework */; };
+		92C3115F201BD5AC00D7EF23 /* ImagePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C31161201BD5AC00D7EF23 /* ImagePicker.framework */; };
+		92C31160201BD5AC00D7EF23 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C31162201BD5AC00D7EF23 /* nanopb.framework */; };
+		92C31163201BD5C200D7EF23 /* leveldb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C31165201BD5C200D7EF23 /* leveldb.framework */; };
+		92C31164201BD5C200D7EF23 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C31166201BD5C200D7EF23 /* Protobuf.framework */; };
+		92C31167201BD64B00D7EF23 /* Lightbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C31168201BD64B00D7EF23 /* Lightbox.framework */; };
+		92C31169201BD74B00D7EF23 /* Pods_Teamster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB0A691C96764CA3848BA0C /* Pods_Teamster.framework */; };
 		92CD0D1C1FFB3A4300CF6DB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CD0D1B1FFB3A4300CF6DB7 /* AppDelegate.swift */; };
-		92CD0D1E1FFB3A4300CF6DB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CD0D1D1FFB3A4300CF6DB7 /* ViewController.swift */; };
+		92CD0D1E1FFB3A4300CF6DB7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CD0D1D1FFB3A4300CF6DB7 /* LoginViewController.swift */; };
 		92CD0D211FFB3A4300CF6DB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92CD0D1F1FFB3A4300CF6DB7 /* Main.storyboard */; };
 		92CD0D231FFB3A4300CF6DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92CD0D221FFB3A4300CF6DB7 /* Assets.xcassets */; };
 		92CD0D261FFB3A4300CF6DB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92CD0D241FFB3A4300CF6DB7 /* LaunchScreen.storyboard */; };
 		92CD0D311FFB3A4300CF6DB7 /* TeamsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CD0D301FFB3A4300CF6DB7 /* TeamsterTests.swift */; };
+		92CDD407201E649800C4B160 /* ChatPrivateMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CDD406201E649800C4B160 /* ChatPrivateMessage.swift */; };
+		92CDD40B201E80E900C4B160 /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CDD40A201E80E900C4B160 /* FirebaseHelper.swift */; };
+		92CDD40D201E8EED00C4B160 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CDD40C201E8EED00C4B160 /* UserTableViewCell.swift */; };
+		92CDD40F201E909D00C4B160 /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CDD40E201E909D00C4B160 /* UserTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,10 +97,94 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		92C3115A201BD50C00D7EF23 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		10CA3F48C2C21049AA85EA3D /* Pods-TeamsterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamsterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamsterTests/Pods-TeamsterTests.release.xcconfig"; sourceTree = "<group>"; };
+		173275B7FF158C11BCF3FC78 /* Pods-Teamster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teamster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Teamster/Pods-Teamster.debug.xcconfig"; sourceTree = "<group>"; };
+		4A2BDF694E35513401CD59D8 /* Pods-TeamsterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamsterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamsterTests/Pods-TeamsterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9215B0D12019783A00C4D81C /* TeamsterUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsterUser.swift; sourceTree = "<group>"; };
+		9215B0D520198D0800C4D81C /* Teamster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Teamster.entitlements; sourceTree = "<group>"; };
+		9215B0D620198D1900C4D81C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9215B0D8201998FF00C4D81C /* CLPlacemark+CompactAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLPlacemark+CompactAddress.swift"; sourceTree = "<group>"; };
+		9215B0DB201AAC2D00C4D81C /* TeamsterFeedCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamsterFeedCollectionViewCell.xib; sourceTree = "<group>"; };
+		9215B0DC201AAC2E00C4D81C /* TeamsterFeedCardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsterFeedCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		9215B0DF201AAD0B00C4D81C /* TeamsterFeedPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsterFeedPost.swift; sourceTree = "<group>"; };
+		9215B0E1201AAFB000C4D81C /* TeamsterFeedComment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsterFeedComment.swift; sourceTree = "<group>"; };
+		921F70E6201811D70017D5DF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		921F70E82018193C0017D5DF /* TeamsterInfoPage0.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamsterInfoPage0.xib; sourceTree = "<group>"; };
+		921F70EA2018199A0017D5DF /* TeamsterInfoPage1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamsterInfoPage1.xib; sourceTree = "<group>"; };
+		921F70EE20181CB90017D5DF /* TeamsterInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsterInfoViewController.swift; sourceTree = "<group>"; };
+		921F70F0201849140017D5DF /* TeamsterInfoPage2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamsterInfoPage2.xib; sourceTree = "<group>"; };
+		922EB440201D2DD80060E39C /* teamster_db_test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teamster_db_test.json; sourceTree = "<group>"; };
+		92391CBD2014436A0082C22B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		92391CC020144FF40082C22B /* SliderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderCell.xib; sourceTree = "<group>"; };
+		92391CC120144FF40082C22B /* ValuePickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ValuePickerCell.xib; sourceTree = "<group>"; };
+		92391CC220144FF40082C22B /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		92391CC320144FF40082C22B /* DatePickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerCell.xib; sourceTree = "<group>"; };
+		92391CC420144FF50082C22B /* SwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchCell.xib; sourceTree = "<group>"; };
+		92391CC520144FF50082C22B /* TextfieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextfieldCell.xib; sourceTree = "<group>"; };
+		92391CC620144FF50082C22B /* NormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NormalCell.xib; sourceTree = "<group>"; };
+		92391CD420145F3E0082C22B /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		924F6AC32015033500B1C0B8 /* KolodaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KolodaViewController.swift; sourceTree = "<group>"; };
+		924F6AFA20158C9700B1C0B8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		924F6AFC20158CAB00B1C0B8 /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		924F6AFE20159B4100B1C0B8 /* SearchSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSettings.swift; sourceTree = "<group>"; };
+		924F6B342017F71700B1C0B8 /* TeamsterAuthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamsterAuthViewController.xib; sourceTree = "<group>"; };
+		924F6B362017F78600B1C0B8 /* TeamsterAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsterAuthViewController.swift; sourceTree = "<group>"; };
+		924F6B382017F87D00B1C0B8 /* TeamsterSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsterSignInViewController.swift; sourceTree = "<group>"; };
+		926140551FFC80FE00506E67 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		928AC61F2013C10F00D22125 /* SegueFromLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueFromLeft.swift; sourceTree = "<group>"; };
+		928AC6202013C10F00D22125 /* SegueFromRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueFromRight.swift; sourceTree = "<group>"; };
+		928AC6242013C15400D22125 /* UISliderX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderX.swift; sourceTree = "<group>"; };
+		928AC6252013C15400D22125 /* UIViewAnchorPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAnchorPoint.swift; sourceTree = "<group>"; };
+		928AC6262013C15400D22125 /* UIVisualEffectViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVisualEffectViewX.swift; sourceTree = "<group>"; };
+		928AC6272013C15400D22125 /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		928AC6282013C15400D22125 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		928AC6292013C15500D22125 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		928AC62A2013C15500D22125 /* UIViewControllerX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerX.swift; sourceTree = "<group>"; };
+		928AC62B2013C15500D22125 /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		928AC62C2013C15500D22125 /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
+		928AC62D2013C15500D22125 /* UIViewXRadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXRadialGradient.swift; sourceTree = "<group>"; };
+		92966A80200B0CD7002DFEA6 /* htmlExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = htmlExtensions.swift; sourceTree = "<group>"; };
+		92C1FA4C201E42BF00CE55C9 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		92C1FA4F201E430900CE55C9 /* GeoFire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GeoFire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C1FA52201E453F00CE55C9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		92C1FA54201E48D700CE55C9 /* TestUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUserViewController.swift; sourceTree = "<group>"; };
+		92C3113D201AE50100D7EF23 /* ARDESTINE.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ARDESTINE.ttf; sourceTree = "<group>"; };
+		92C31142201BD2B700D7EF23 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C31143201BD2B700D7EF23 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C31144201BD2B700D7EF23 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C31147201BD2EB00D7EF23 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C31148201BD2EB00D7EF23 /* Koloda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Koloda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C3114B201BD33D00D7EF23 /* MaterialComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C3114C201BD33D00D7EF23 /* MHPrettyDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MHPrettyDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C3114E201BD39300D7EF23 /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C31150201BD41400D7EF23 /* Cache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C31154201BD48200D7EF23 /* GTMOAuth2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GTMOAuth2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C31155201BD48200D7EF23 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C31156201BD48200D7EF23 /* Imaginary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Imaginary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C3115C201BD58100D7EF23 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C3115E201BD58D00D7EF23 /* Hue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Hue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C31161201BD5AC00D7EF23 /* ImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C31162201BD5AC00D7EF23 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C31165201BD5C200D7EF23 /* leveldb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = leveldb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C31166201BD5C200D7EF23 /* Protobuf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Protobuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C31168201BD64B00D7EF23 /* Lightbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lightbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CD0D181FFB3A4300CF6DB7 /* Teamster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teamster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CD0D1B1FFB3A4300CF6DB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		92CD0D1D1FFB3A4300CF6DB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92CD0D1D1FFB3A4300CF6DB7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		92CD0D201FFB3A4300CF6DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92CD0D221FFB3A4300CF6DB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92CD0D251FFB3A4300CF6DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +192,13 @@
 		92CD0D2C1FFB3A4300CF6DB7 /* TeamsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CD0D301FFB3A4300CF6DB7 /* TeamsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsterTests.swift; sourceTree = "<group>"; };
 		92CD0D321FFB3A4300CF6DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92CDD406201E649800C4B160 /* ChatPrivateMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPrivateMessage.swift; sourceTree = "<group>"; };
+		92CDD40A201E80E900C4B160 /* FirebaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		92CDD40C201E8EED00C4B160 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		92CDD40E201E909D00C4B160 /* UserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
+		9F7960E8A977BEA0B3A2E18C /* Pods-Teamster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teamster.release.xcconfig"; path = "Pods/Target Support Files/Pods-Teamster/Pods-Teamster.release.xcconfig"; sourceTree = "<group>"; };
+		AE388CEB5B96908DD032AC83 /* Pods_TeamsterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamsterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB0A691C96764CA3848BA0C /* Pods_Teamster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teamster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +206,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C31167201BD64B00D7EF23 /* Lightbox.framework in Frameworks */,
+				92C31163201BD5C200D7EF23 /* leveldb.framework in Frameworks */,
+				92C31164201BD5C200D7EF23 /* Protobuf.framework in Frameworks */,
+				92C3115F201BD5AC00D7EF23 /* ImagePicker.framework in Frameworks */,
+				92C31160201BD5AC00D7EF23 /* nanopb.framework in Frameworks */,
+				92C3115D201BD58D00D7EF23 /* Hue.framework in Frameworks */,
+				92C3115B201BD58100D7EF23 /* GoogleToolboxForMac.framework in Frameworks */,
+				92C31151201BD48200D7EF23 /* GTMOAuth2.framework in Frameworks */,
+				92C31152201BD48200D7EF23 /* GTMSessionFetcher.framework in Frameworks */,
+				92C31153201BD48200D7EF23 /* Imaginary.framework in Frameworks */,
+				92C3114F201BD41400D7EF23 /* Cache.framework in Frameworks */,
+				92C3114D201BD39300D7EF23 /* SideMenu.framework in Frameworks */,
+				92C31149201BD33D00D7EF23 /* MaterialComponents.framework in Frameworks */,
+				92C3114A201BD33D00D7EF23 /* MHPrettyDate.framework in Frameworks */,
+				92C31145201BD2EB00D7EF23 /* Kingfisher.framework in Frameworks */,
+				92C31146201BD2EB00D7EF23 /* Koloda.framework in Frameworks */,
+				92C3113F201BD2B700D7EF23 /* FBSDKCoreKit.framework in Frameworks */,
+				92C31140201BD2B700D7EF23 /* FBSDKLoginKit.framework in Frameworks */,
+				92C31141201BD2B700D7EF23 /* FBSDKShareKit.framework in Frameworks */,
+				9215B0D720198D1900C4D81C /* MapKit.framework in Frameworks */,
+				92C31169201BD74B00D7EF23 /* Pods_Teamster.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +234,183 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AC0517B182C30A59B8398FC /* Pods_TeamsterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47FFC18AF1033C9F9B3CE8C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				173275B7FF158C11BCF3FC78 /* Pods-Teamster.debug.xcconfig */,
+				9F7960E8A977BEA0B3A2E18C /* Pods-Teamster.release.xcconfig */,
+				4A2BDF694E35513401CD59D8 /* Pods-TeamsterTests.debug.xcconfig */,
+				10CA3F48C2C21049AA85EA3D /* Pods-TeamsterTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9215B0DA201AABFF00C4D81C /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				9215B0DC201AAC2E00C4D81C /* TeamsterFeedCardCollectionViewCell.swift */,
+				9215B0DB201AAC2D00C4D81C /* TeamsterFeedCollectionViewCell.xib */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		921F70EC20181C5F0017D5DF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				921F70E82018193C0017D5DF /* TeamsterInfoPage0.xib */,
+				921F70EA2018199A0017D5DF /* TeamsterInfoPage1.xib */,
+				921F70F0201849140017D5DF /* TeamsterInfoPage2.xib */,
+				924F6B342017F71700B1C0B8 /* TeamsterAuthViewController.xib */,
+				921F70EE20181CB90017D5DF /* TeamsterInfoViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		921F70ED20181C800017D5DF /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				924F6AFA20158C9700B1C0B8 /* CardView.swift */,
+				924F6AFC20158CAB00B1C0B8 /* CardView.xib */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		92391CBF20144F980082C22B /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				92391CC220144FF40082C22B /* CustomCell.swift */,
+				92391CC320144FF40082C22B /* DatePickerCell.xib */,
+				92391CC620144FF50082C22B /* NormalCell.xib */,
+				92391CC020144FF40082C22B /* SliderCell.xib */,
+				92391CC420144FF50082C22B /* SwitchCell.xib */,
+				92391CC520144FF50082C22B /* TextfieldCell.xib */,
+				92391CC120144FF40082C22B /* ValuePickerCell.xib */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		92391CD6201463A20082C22B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9215B0E1201AAFB000C4D81C /* TeamsterFeedComment.swift */,
+				9215B0DF201AAD0B00C4D81C /* TeamsterFeedPost.swift */,
+				924F6AFE20159B4100B1C0B8 /* SearchSettings.swift */,
+				9215B0D12019783A00C4D81C /* TeamsterUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		924F6AF920158C5A00B1C0B8 /* XibTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				9215B0DA201AABFF00C4D81C /* Feed */,
+				921F70ED20181C800017D5DF /* Cards */,
+				921F70EC20181C5F0017D5DF /* Login */,
+			);
+			path = XibTemplates;
+			sourceTree = "<group>";
+		};
+		928AC61E2013C0DF00D22125 /* Segues */ = {
+			isa = PBXGroup;
+			children = (
+				928AC61F2013C10F00D22125 /* SegueFromLeft.swift */,
+				928AC6202013C10F00D22125 /* SegueFromRight.swift */,
+			);
+			path = Segues;
+			sourceTree = "<group>";
+		};
+		928AC6232013C13400D22125 /* DesignableX */ = {
+			isa = PBXGroup;
+			children = (
+				928AC6292013C15500D22125 /* UIButtonX.swift */,
+				928AC62C2013C15500D22125 /* UIImageViewX.swift */,
+				928AC6272013C15400D22125 /* UILabelX.swift */,
+				928AC6242013C15400D22125 /* UISliderX.swift */,
+				928AC62B2013C15500D22125 /* UITextFieldX.swift */,
+				928AC6252013C15400D22125 /* UIViewAnchorPoint.swift */,
+				928AC62A2013C15500D22125 /* UIViewControllerX.swift */,
+				928AC6282013C15400D22125 /* UIViewX.swift */,
+				928AC62D2013C15500D22125 /* UIViewXRadialGradient.swift */,
+				928AC6262013C15400D22125 /* UIVisualEffectViewX.swift */,
+			);
+			path = DesignableX;
+			sourceTree = "<group>";
+		};
+		928AC6382013C9A100D22125 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				92CD0D1B1FFB3A4300CF6DB7 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		928AC6392013C9B900D22125 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				92CDD405201E645800C4B160 /* Chat */,
+				92CD0D1D1FFB3A4300CF6DB7 /* LoginViewController.swift */,
+				92391CBD2014436A0082C22B /* MainViewController.swift */,
+				92391CD420145F3E0082C22B /* SettingsTableViewController.swift */,
+				924F6AC32015033500B1C0B8 /* KolodaViewController.swift */,
+				924F6B362017F78600B1C0B8 /* TeamsterAuthViewController.swift */,
+				924F6B382017F87D00B1C0B8 /* TeamsterSignInViewController.swift */,
+				921F70E6201811D70017D5DF /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		928AC63A2013C9D400D22125 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				92CD0D1F1FFB3A4300CF6DB7 /* Main.storyboard */,
+				92CD0D241FFB3A4300CF6DB7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		928AC63B2013C9F100D22125 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				926140551FFC80FE00506E67 /* GoogleService-Info.plist */,
+				922EB440201D2DD80060E39C /* teamster_db_test.json */,
+				92C1FA52201E453F00CE55C9 /* Constants.swift */,
+				92CDD40A201E80E900C4B160 /* FirebaseHelper.swift */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		928AC63C2013CA2E00D22125 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				92966A80200B0CD7002DFEA6 /* htmlExtensions.swift */,
+				9215B0D8201998FF00C4D81C /* CLPlacemark+CompactAddress.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		92C3113C201AE4E100D7EF23 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				92C3113D201AE50100D7EF23 /* ARDESTINE.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		92CD0D0F1FFB3A4300CF6DB7 = {
 			isa = PBXGroup;
 			children = (
 				92CD0D1A1FFB3A4300CF6DB7 /* Teamster */,
 				92CD0D2F1FFB3A4300CF6DB7 /* TeamsterTests */,
 				92CD0D191FFB3A4300CF6DB7 /* Products */,
+				47FFC18AF1033C9F9B3CE8C3 /* Pods */,
+				FDCE5E81B1D7B098B1E36B12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +426,20 @@
 		92CD0D1A1FFB3A4300CF6DB7 /* Teamster */ = {
 			isa = PBXGroup;
 			children = (
-				92CD0D1B1FFB3A4300CF6DB7 /* AppDelegate.swift */,
-				92CD0D1D1FFB3A4300CF6DB7 /* ViewController.swift */,
-				92CD0D1F1FFB3A4300CF6DB7 /* Main.storyboard */,
-				92CD0D221FFB3A4300CF6DB7 /* Assets.xcassets */,
-				92CD0D241FFB3A4300CF6DB7 /* LaunchScreen.storyboard */,
+				9215B0D520198D0800C4D81C /* Teamster.entitlements */,
 				92CD0D271FFB3A4300CF6DB7 /* Info.plist */,
+				92C3113C201AE4E100D7EF23 /* Font */,
+				924F6AF920158C5A00B1C0B8 /* XibTemplates */,
+				928AC6232013C13400D22125 /* DesignableX */,
+				92391CD6201463A20082C22B /* Models */,
+				92391CBF20144F980082C22B /* Custom Cells */,
+				928AC63C2013CA2E00D22125 /* Extensions */,
+				928AC63B2013C9F100D22125 /* Support Files */,
+				928AC63A2013C9D400D22125 /* Storyboards */,
+				928AC6392013C9B900D22125 /* Controllers */,
+				928AC6382013C9A100D22125 /* AppDelegate */,
+				928AC61E2013C0DF00D22125 /* Segues */,
+				92CD0D221FFB3A4300CF6DB7 /* Assets.xcassets */,
 			);
 			path = Teamster;
 			sourceTree = "<group>";
@@ -96,6 +453,48 @@
 			path = TeamsterTests;
 			sourceTree = "<group>";
 		};
+		92CDD405201E645800C4B160 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				92C1FA54201E48D700CE55C9 /* TestUserViewController.swift */,
+				92C1FA4C201E42BF00CE55C9 /* ChatViewController.swift */,
+				92CDD406201E649800C4B160 /* ChatPrivateMessage.swift */,
+				92CDD40C201E8EED00C4B160 /* UserTableViewCell.swift */,
+				92CDD40E201E909D00C4B160 /* UserTableViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		FDCE5E81B1D7B098B1E36B12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92C1FA4F201E430900CE55C9 /* GeoFire.framework */,
+				92C31168201BD64B00D7EF23 /* Lightbox.framework */,
+				92C31165201BD5C200D7EF23 /* leveldb.framework */,
+				92C31166201BD5C200D7EF23 /* Protobuf.framework */,
+				92C31161201BD5AC00D7EF23 /* ImagePicker.framework */,
+				92C31162201BD5AC00D7EF23 /* nanopb.framework */,
+				92C3115E201BD58D00D7EF23 /* Hue.framework */,
+				92C3115C201BD58100D7EF23 /* GoogleToolboxForMac.framework */,
+				92C31154201BD48200D7EF23 /* GTMOAuth2.framework */,
+				92C31155201BD48200D7EF23 /* GTMSessionFetcher.framework */,
+				92C31156201BD48200D7EF23 /* Imaginary.framework */,
+				92C31150201BD41400D7EF23 /* Cache.framework */,
+				92C3114E201BD39300D7EF23 /* SideMenu.framework */,
+				92C3114B201BD33D00D7EF23 /* MaterialComponents.framework */,
+				92C3114C201BD33D00D7EF23 /* MHPrettyDate.framework */,
+				92C31147201BD2EB00D7EF23 /* Kingfisher.framework */,
+				92C31148201BD2EB00D7EF23 /* Koloda.framework */,
+				92C31142201BD2B700D7EF23 /* FBSDKCoreKit.framework */,
+				92C31143201BD2B700D7EF23 /* FBSDKLoginKit.framework */,
+				92C31144201BD2B700D7EF23 /* FBSDKShareKit.framework */,
+				9215B0D620198D1900C4D81C /* MapKit.framework */,
+				BAB0A691C96764CA3848BA0C /* Pods_Teamster.framework */,
+				AE388CEB5B96908DD032AC83 /* Pods_TeamsterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +502,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92CD0D351FFB3A4300CF6DB7 /* Build configuration list for PBXNativeTarget "Teamster" */;
 			buildPhases = (
+				4B3E60E9D187A278964AB4B4 /* [CP] Check Pods Manifest.lock */,
 				92CD0D141FFB3A4300CF6DB7 /* Sources */,
 				92CD0D151FFB3A4300CF6DB7 /* Frameworks */,
 				92CD0D161FFB3A4300CF6DB7 /* Resources */,
+				9D254F4487222394EACE34F7 /* [CP] Embed Pods Frameworks */,
+				0596D229512F773F6F7048E6 /* [CP] Copy Pods Resources */,
+				92C3115A201BD50C00D7EF23 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,9 +523,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92CD0D381FFB3A4300CF6DB7 /* Build configuration list for PBXNativeTarget "TeamsterTests" */;
 			buildPhases = (
+				9D1D112157881E3DE514D1C8 /* [CP] Check Pods Manifest.lock */,
 				92CD0D281FFB3A4300CF6DB7 /* Sources */,
 				92CD0D291FFB3A4300CF6DB7 /* Frameworks */,
 				92CD0D2A1FFB3A4300CF6DB7 /* Resources */,
+				50903D342AA970067E2BB6A2 /* [CP] Embed Pods Frameworks */,
+				2D381D4647AB22E9EC54FA8C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,6 +553,17 @@
 					92CD0D171FFB3A4300CF6DB7 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					92CD0D2B1FFB3A4300CF6DB7 = {
 						CreatedOnToolsVersion = 9.2;
@@ -179,7 +596,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C3113E201AE5CF00D7EF23 /* ARDESTINE.ttf in Resources */,
 				92CD0D261FFB3A4300CF6DB7 /* LaunchScreen.storyboard in Resources */,
+				92391CCB20144FF50082C22B /* SwitchCell.xib in Resources */,
+				924F6AFD20158CAB00B1C0B8 /* CardView.xib in Resources */,
+				9215B0DD201AAC2E00C4D81C /* TeamsterFeedCollectionViewCell.xib in Resources */,
+				926140561FFC80FF00506E67 /* GoogleService-Info.plist in Resources */,
+				92391CC720144FF50082C22B /* SliderCell.xib in Resources */,
+				92391CCD20144FF50082C22B /* NormalCell.xib in Resources */,
+				921F70F1201849140017D5DF /* TeamsterInfoPage2.xib in Resources */,
+				92391CCC20144FF50082C22B /* TextfieldCell.xib in Resources */,
+				924F6B352017F71700B1C0B8 /* TeamsterAuthViewController.xib in Resources */,
+				92391CCA20144FF50082C22B /* DatePickerCell.xib in Resources */,
+				922EB441201D2DD80060E39C /* teamster_db_test.json in Resources */,
+				92391CC820144FF50082C22B /* ValuePickerCell.xib in Resources */,
+				921F70EB2018199A0017D5DF /* TeamsterInfoPage1.xib in Resources */,
+				921F70E92018193C0017D5DF /* TeamsterInfoPage0.xib in Resources */,
 				92CD0D231FFB3A4300CF6DB7 /* Assets.xcassets in Resources */,
 				92CD0D211FFB3A4300CF6DB7 /* Main.storyboard in Resources */,
 			);
@@ -194,13 +626,214 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0596D229512F773F6F7048E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Teamster/Pods-Teamster-resources.sh",
+				"${PODS_ROOT}/FirebaseInvites/Resources/GINInviteResources.bundle",
+				"${PODS_ROOT}/FirebaseInvites/Resources/GPPACLPickerResources.bundle",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseFacebookAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseGoogleAuthUI.bundle,
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Teamster/Pods-Teamster-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D381D4647AB22E9EC54FA8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamsterTests/Pods-TeamsterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B3E60E9D187A278964AB4B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Teamster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50903D342AA970067E2BB6A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamsterTests/Pods-TeamsterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D1D112157881E3DE514D1C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeamsterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D254F4487222394EACE34F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Teamster/Pods-Teamster-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GeoFire/GeoFire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Hue/Hue.framework",
+				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Imaginary/Imaginary.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
+				"${BUILT_PRODUCTS_DIR}/Lightbox/Lightbox.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MHPrettyDate/MHPrettyDate.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageKit/MessageKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GeoFire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hue.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Imaginary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lightbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MHPrettyDate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Teamster/Pods-Teamster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92CD0D141FFB3A4300CF6DB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92CD0D1E1FFB3A4300CF6DB7 /* ViewController.swift in Sources */,
+				9215B0D9201998FF00C4D81C /* CLPlacemark+CompactAddress.swift in Sources */,
+				924F6B392017F87D00B1C0B8 /* TeamsterSignInViewController.swift in Sources */,
+				928AC6312013C15500D22125 /* UILabelX.swift in Sources */,
+				9215B0E2201AAFB000C4D81C /* TeamsterFeedComment.swift in Sources */,
+				92CDD40B201E80E900C4B160 /* FirebaseHelper.swift in Sources */,
+				92CD0D1E1FFB3A4300CF6DB7 /* LoginViewController.swift in Sources */,
+				92391CC920144FF50082C22B /* CustomCell.swift in Sources */,
+				92CDD40D201E8EED00C4B160 /* UserTableViewCell.swift in Sources */,
+				928AC6332013C15500D22125 /* UIButtonX.swift in Sources */,
+				92C1FA53201E453F00CE55C9 /* Constants.swift in Sources */,
+				928AC6342013C15500D22125 /* UIViewControllerX.swift in Sources */,
+				921F70E7201811D70017D5DF /* ProfileViewController.swift in Sources */,
+				9215B0D22019783A00C4D81C /* TeamsterUser.swift in Sources */,
+				924F6AC42015033500B1C0B8 /* KolodaViewController.swift in Sources */,
+				9215B0E0201AAD0B00C4D81C /* TeamsterFeedPost.swift in Sources */,
+				92CDD40F201E909D00C4B160 /* UserTableViewController.swift in Sources */,
+				928AC62F2013C15500D22125 /* UIViewAnchorPoint.swift in Sources */,
+				921F70EF20181CB90017D5DF /* TeamsterInfoViewController.swift in Sources */,
+				9215B0DE201AAC2E00C4D81C /* TeamsterFeedCardCollectionViewCell.swift in Sources */,
+				92C1FA55201E48D700CE55C9 /* TestUserViewController.swift in Sources */,
+				928AC6352013C15500D22125 /* UITextFieldX.swift in Sources */,
+				928AC6322013C15500D22125 /* UIViewX.swift in Sources */,
+				92391CD520145F3E0082C22B /* SettingsTableViewController.swift in Sources */,
+				92391CBE2014436A0082C22B /* MainViewController.swift in Sources */,
+				928AC6222013C10F00D22125 /* SegueFromRight.swift in Sources */,
+				928AC6372013C15500D22125 /* UIViewXRadialGradient.swift in Sources */,
 				92CD0D1C1FFB3A4300CF6DB7 /* AppDelegate.swift in Sources */,
+				924F6AFB20158C9700B1C0B8 /* CardView.swift in Sources */,
+				928AC62E2013C15500D22125 /* UISliderX.swift in Sources */,
+				924F6B372017F78600B1C0B8 /* TeamsterAuthViewController.swift in Sources */,
+				92CDD407201E649800C4B160 /* ChatPrivateMessage.swift in Sources */,
+				928AC6212013C10F00D22125 /* SegueFromLeft.swift in Sources */,
+				928AC6362013C15500D22125 /* UIImageViewX.swift in Sources */,
+				928AC6302013C15500D22125 /* UIVisualEffectViewX.swift in Sources */,
+				924F6AFF20159B4100B1C0B8 /* SearchSettings.swift in Sources */,
+				92966A81200B0CD7002DFEA6 /* htmlExtensions.swift in Sources */,
+				92C1FA4D201E42BF00CE55C9 /* ChatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +923,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -341,7 +974,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -351,36 +984,43 @@
 		};
 		92CD0D361FFB3A4300CF6DB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 173275B7FF158C11BCF3FC78 /* Pods-Teamster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Teamster/Teamster.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W5ZRRFQK2M;
 				INFOPLIST_FILE = Teamster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.magjar.Teamster;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magjar.teamster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		92CD0D371FFB3A4300CF6DB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F7960E8A977BEA0B3A2E18C /* Pods-Teamster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Teamster/Teamster.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W5ZRRFQK2M;
 				INFOPLIST_FILE = Teamster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.magjar.Teamster;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magjar.teamster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		92CD0D391FFB3A4300CF6DB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A2BDF694E35513401CD59D8 /* Pods-TeamsterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +1038,7 @@
 		};
 		92CD0D3A1FFB3A4300CF6DB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10CA3F48C2C21049AA85EA3D /* Pods-TeamsterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
